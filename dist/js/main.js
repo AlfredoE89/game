@@ -9,7 +9,7 @@ var game = (function(){
     w: 25,
     fill: '#fff',
     dir: 'right',
-    speed: 5
+    speed: 10
   }
 
   var spawn = {
@@ -18,7 +18,7 @@ var game = (function(){
     h: 10,
     w: 10,
     fill: '#ff0',
-    speed: 20
+    speed: 10
   }
 
   var spawns = {}
