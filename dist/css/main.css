@@ -1,2 +1,12 @@
 canvas {
-  background: #222; }
+  background: #0d19bd; }
+
+/* 4. Over lay the score on the top left corner of the canvas.*/
+#score {
+  position: absolute;
+  top: 20px;
+  left: 70%;
+  z-index: 100;
+  font-weight: bold;
+  font-size: 50px;
+  color: #c22525; }
